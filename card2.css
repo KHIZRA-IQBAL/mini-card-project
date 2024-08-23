@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: #094279;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card2{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.card2 img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius:20px ;
+    height: 30%;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+    width: 75%;
+}
+
+#amountbox{
+    width:80% ;
+    height: 10%;
+    background-color: rgb(111, 150, 151);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right:20px ;
+    padding-left:20px ;
+}
+
+#paymentbutton{
+    width:40% ;
+    height: 10%;
+    background-color:#094279;
+    color: wheat;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.cancelbox a {
+   text-decoration: none;
+   font-size: large;
+}
+
+.cancelbox a:hover{
+    border: 2px solid rgb(9, 9, 19);
+    border-radius: 5px;
+}
+
+#leftbox{
+    width: fit-content;
+    display: flex;
+    gap: 15px;
+    height: 100%;
+    align-items: center;
+}
+
+#leftbox img{
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+
+
+
+
